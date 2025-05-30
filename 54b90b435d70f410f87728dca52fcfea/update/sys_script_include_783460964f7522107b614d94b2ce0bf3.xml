@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_itam_workspace.NewNotModified</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>NewNotModified</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var NewNotModified = Class.create();
+NewNotModified.prototype = {
+    initialize: function() {
+    },
+
+    type: 'NewNotModified'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 23:04:31</sys_created_on>
+        <sys_id>783460964f7522107b614d94b2ce0bf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewNotModified</sys_name>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Asset Management Workspace">54b90b435d70f410f87728dca52fcfea</sys_scope>
+        <sys_update_name>sys_script_include_783460964f7522107b614d94b2ce0bf3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 23:04:31</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Asset Management Workspace">54b90b435d70f410f87728dca52fcfea</claim_owner_scope>
+        <claim_timestamp>1972370ff370000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_783460964f7522107b614d94b2ce0bf3</metadata_update_name>
+        <previous_claim_app_version>7.999.0</previous_claim_app_version>
+        <previous_claim_name>Asset Management Workspace</previous_claim_name>
+        <previous_claim_scope>54b90b435d70f410f87728dca52fcfea</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 23:04:57</sys_created_on>
+        <sys_id>2954a4964f7522107b614d94b2ce0b47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 23:04:57</sys_updated_on>
+    </sys_claim>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>783460964f7522107b614d94b2ce0bf3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 23:04:31</sys_created_on>
+        <sys_id>933424964f7522107b614d94b2ce0b2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 23:04:31</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
